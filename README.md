@@ -22,12 +22,12 @@ Make sure you have the following installed:
    git clone https://github.com/yourusername/perkpulse.git
    cd perkpulse
    ```
-2. **Install the Required Python Packages:
+2. **Install the Required Python Packages:**
 
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run the Flask Server:
+3. **Run the Flask Server:**
 
    ```bash
    python server.py
@@ -35,9 +35,9 @@ Make sure you have the following installed:
 
 ### Acessing the Website
 
-1. **Open the Website:
+1. **Open the Website:**
    ```bash
    http://127.0.0.1:5000
    ```
-2. **Login Page:
+2. **Login Page:**
    You will be directed to the login page. Enter your credentials to log in     and continue using the website.
