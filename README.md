@@ -41,7 +41,7 @@ Make sure you have the following installed:
 
 1. **Open the Website:**
    ```bash
-   http://127.0.0.1:5000
+   http://127.0.0.1:5500/templates/login.html
    ```
 2. **Login Page:**
    You will be directed to the login page. Enter your credentials to log in     and continue using the website.
