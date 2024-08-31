@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - PerkPulse</title>
+    <link rel="stylesheet" href="../static/signin.css">
+</head>
+<body>
+    <div class="desktop-1">
+        <div class="back-arrow-container">
+            <a href="login.html" class="back-arrow">
+                <img src="assets/vectors/group_41_x2.svg" alt="Back" class="group-4">
+            </a>
+        </div>
+
+        <div class="rectangle"></div>
+
+        <div class="content-wrapper">
+            <h1 class="perk-pulse">PerkPulse</h1>
+
+            <div class="group-1">
+                <h2 class="login">Sign Up</h2>
+                
+                <form id="signupForm">
+                    <div class="input-group">
+                        <label for="email" class="email">Email</label>
+                        <input type="email" id="email" class="rectangle-1" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password" class="password">Password</label>
+                        <input type="password" id="password" class="rectangle-1" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="confirmPassword" class="confirm">Confirm Password</label>
+                        <input type="password" id="confirmPassword" class="rectangle-1" required>
+                    </div>
+
+                    <button type="submit" class="group-5">
+                        <span class="sign-in">CREATE</span>
+                    </button>
+                </form>
+
+                <div id="errorMessage" class="error-message"></div>
+                <div id="successMessage" class="success-message"></div>
+            </div>
+        </div>
+    </div>
+    <script src="../static/signin.js"></script>
+    
+</body>
+</html>
