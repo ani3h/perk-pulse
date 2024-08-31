@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desktop - 4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/offers_flight.css" />
+  </head>
+  <body>
+    <div class="desktop-4">
+      <div class="container-1">
+        <div class="container-2">
+          <span class="perk-pulse">
+          PerkPulse
+          </span>
+          <div class="iconamoonprofile-duotone">
+            <button type="button" onclick="toggleAdd()">
+              <img class="group" src="../templates/assets/vectors/group_1_x2.svg" />
+            </button>
+          </div>
+        </div>
+        <div class="group0" id="group0">
+          <button type="button" class="prof-btn">Profile</button>
+          <a href = "mc.html">
+            <button type="button" class="card-btn">Manage Cards</button>
+          </a>
+          <a href = "login.html">
+            <button type="button" class="log-out">Log out</button>
+          </a>
+      </div>
+        <div class="container">
+          <a href="main.html">
+            <img class="group-4" src="../templates/assets/vectors/group_41_x2.svg" />
+          </a>
+        </div>
+        <div class="group-13">
+          <div class="group-10">
+            <div class="save">
+            Save
+            </div>
+            <span class="rs-2000">
+            Rs 2,000
+            </span>
+          </div>
+          <div class="using-hdfc-card-1234456778901111">
+          Using HDFC card  [1234 4567 7890 1111]
+          </div>
+          <div class="gridiconsdropdown">
+            <img class="vector-4" src="../templates/assets/vectors/vector_6_x2.svg" />
+          </div>
+        </div>
+        <div class="group-14">
+          <div class="group-101">
+            <div class="save-1">
+            Save
+            </div>
+            <span class="rs-20001">
+            Rs 2,000
+            </span>
+          </div>
+          <div class="using-hdfc-card-12344567789011111">
+          Using HDFC card  [1234 4567 7890 1111]
+          </div>
+          <div class="gridiconsdropdown-1">
+            <img class="vector-5" src="../templates/assets/vectors/vector_3_x2.svg" />
+          </div>
+        </div>
+        <div class="group-15">
+          <div class="group-12">
+            <div class="group-102">
+              <div class="save-2">
+              Save
+              </div>
+              <span class="rs-20002">
+              Rs 2,000
+              </span>
+            </div>
+            <div class="using-hdfc-card-12344567789011112">
+            Using HDFC card  [1234 4567 7890 1111]
+            </div>
+            <div class="gridiconsdropdown-2">
+              <img class="vector-6" src="../templates/assets/vectors/vector_2_x2.svg" />
+            </div>
+          </div>
+          <div class="group-131">
+            <div class="group-103">
+              <div class="save-3">
+              Save
+              </div>
+              <span class="rs-20003">
+              Rs 2,000
+              </span>
+            </div>
+            <div class="using-hdfc-card-12344567789011113">
+            Using HDFC card  [1234 4567 7890 1111]
+            </div>
+            <div class="gridiconsdropdown-3">
+              <img class="vector-7" src="../templates/assets/vectors/vector_1_x2.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="group-18">
+          <img class="group-1" src="../templates/assets/vectors/group_2_x2.svg" />
+        </div>
+      </div>
+      <!-- <img class="rectangle-18" src="../assets/vectors/rectangle_18_x2.svg" /> -->
+      <button class="ai-recommendation">
+      Make Prediction
+      </button>
+    </div>
+    <script src="../static/offers_flights.js"></script>
+    <script>
+      let group0 = document.getElementById("group0");
+      function openProfile(){
+        group0.classList.add("open-Profile");
+      }
+      function toggleAdd() {
+        const addNewForm = document.getElementById('group0');
+        addNewForm.classList.toggle('open-Profile');
+     }
+    </script>
+  </body>
+</html>

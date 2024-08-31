@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PerkPulse - Dashboard</title>
+    <link rel="stylesheet" href="../static/main.css">
+</head>
+<body>
+    <div class="desktop-2">
+        <div class="container-4">
+            <div class="group-17">
+                <div class="perk-pulse">PerkPulse</div>
+                <div class="iconamoonprofile-duotone">
+                    <button type="button" onclick="toggleAdd()">
+                        <img class="group" src="../templates/assets/vectors/group_1_x2.svg" />
+                    </button>
+                </div>
+            </div>
+
+            <div class="group0" id="group0">
+                <button type="button" class="prof-btn">Profile</button>
+                <a href="mc.html">
+                    <button type="button" class="card-btn">Manage Cards</button>
+                </a>
+                <a href="login.html">
+                    <button type="button" class="log-out">Log out</button>
+                </a>
+            </div>
+
+            <div class="container">
+                <span class="cards-added">Cards Added </span>
+            </div>
+            <div class="rectangle-9" id="cardsAddedCount"><span id="cardsAdded">0</span></div>
+            <div class="container-6">
+                <div class="container-3">
+                    <a href="offers_flight.html" class="movies-link">
+                    <div class="material-symbols-lighttravel">
+                        <img src="../templates/assets/vectors/vector_4_x2.svg" alt="Travel" class="vector-7">
+                    </div>
+                    <span class="travel">Travel</span>
+                    </a>
+                </div>
+
+                <div class="container-7">
+                    <a href="offers_movies.html" class="movies-link">
+                        <div class="fluentmovies-and-tv-16-filled">
+                            <img src="../templates/assets/vectors/vector_5_x2.svg" alt="Movies" class="vector-7">
+                        </div>
+                        <span class="movies">Movies</span>
+                    </a>
+                </div>
+
+                <div class="container-1">
+                    <div class="vaadinoffice">
+                        <img src="../templates//assets/vectors/vector_9_x2.svg" alt="Hotels" class="vector-7">
+                    </div>
+                    <span class="hotels">Hotels</span>
+                </div>
+            </div>
+
+            <div class="container-6">
+                <div class="container-3">
+                    <div class="material-symbols-lighttravel">
+                        <img src="../templates//assets/vectors/vector_8_x2.svg" alt="Clothing" class="vector-7">
+                    </div>
+                    <span class="travel">Clothing</span>
+                </div>
+
+                <div class="container-7">
+                    <div class="mdifood">
+                        <img src="../templates//assets/vectors/vector_x2.svg" alt="Food" class="vector-7">
+                    </div>
+                    <span class="food">Food</span>
+                </div>
+
+                <div class="container-7" style="background-color: transparent;">
+                    <div class="mdifood">
+                        <img src="../templates//assets/vectors/group_3_x2.svg" alt="Add more" class="vector-7">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../static/main.js"></script>
+    <script>
+        let group0 = document.getElementById("group0");
+        function openProfile(){
+            group0.classList.add("open-Profile");
+        }
+        let group1 = document.getElementById("group1");
+        function openAdd(){
+            group1.classList.add("open-Add");
+        }
+
+        function toggleAdd() {
+          const addNewForm = document.getElementById('group0');
+          addNewForm.classList.toggle('open-Profile');
+       }
+    </script>
+</body>
+</html>
