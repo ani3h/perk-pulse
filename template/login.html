@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PerkPulse Login</title>
+    <link rel="stylesheet" href="../static/login.css">
+</head>
+<body>
+    <div class="desktop-1">
+        <div class="rectangle"></div>
+        <h1 class="perk-pulse">PerkPulse</h1>
+        <div class="group-1">
+            <h2 class="login">Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="email" class="email">Email</label>
+                    <input type="email" id="email" class="input-box" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password" class="password">Password</label>
+                    <input type="password" id="password" class="input-box" required>
+                </div>
+                
+                <div class="group-5">
+                    <button type="submit" class="sign-in">Sign in</button>
+                </div>
+            </form>
+            <p class="or">or</p>
+            <a href="signin.html" class="create-account-link">
+                <span class="create-new-account">Create new account</span>
+            </a>
+            <p id="errorMessage" style="color: red; display: none;"></p>
+        </div>
+    </div>
+    <script src="../static/login.js"></script>
+    
+</body>
+</html>
