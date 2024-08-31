@@ -1,0 +1,153 @@
+.desktop-1 .rectangle {
+  filter: blur(var(--blur-layer, 2px));
+  border-radius: 3px;
+  border: 5px solid #D4B18B;
+  background: url('../templates/assets/images/rectangle.jpeg') 50% / cover no-repeat;
+  position: absolute;
+  left: -6px;
+  top: 0px;
+  width: 1446px;
+  height: 1024px;
+}
+
+.desktop-1 .perk-pulse {
+  position: relative;
+  margin-bottom: 132px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 50px;
+  color: #1A2A3A;
+}
+
+.desktop-1 .login {
+  margin: 0 6.7px 38.1px 6.7px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 35px;
+  color: #1A2A3A;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35.3px;
+}
+
+.desktop-1 .email,
+.desktop-1 .password {
+  margin: 0 6.7px 11.3px 6.7px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 28px;
+  color: #1A2A3A;
+}
+
+.input-box {
+  border-radius: 30px;
+  background: rgba(130, 107, 33, 0.25);
+  border: none;
+  width: 402.8px;
+  height: 54px;
+  padding: 0 15px;
+  font-size: 18px;
+  transform: translate(1%);
+}
+
+.desktop-1 .sign-in {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 28px;
+  font-variant: all-small-caps;
+  color: #1A2A3A;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.desktop-1 .group-5 {
+  border-radius: 20px;
+  background: rgba(225, 163, 132, 0.38);
+  position: relative;
+  margin: 0 auto 8.8px auto;
+  align-self: center;
+  padding: 6px 19.7px 11.2px 19.7px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.desktop-1 .or {
+  margin: 20px 10.6px 11px 0;
+  display: inline-block;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 22px;
+  font-variant: all-small-caps;
+  color: #1A2A3A;
+}
+
+.desktop-1 .create-new-account {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 21px;
+  text-transform: capitalize;
+  color: #1a2a3a;
+}
+
+.desktop-1 .group-1 {
+  border-radius: 31px;
+  background: rgba(233, 222, 215, 0.47);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 44.3px 23px 14px 24px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.desktop-1 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 46px 0 221px 61px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+
+.sign-in-link,
+.create-account-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.sign-in-link:hover,
+.create-account-link:hover {
+  opacity: 0.8;
+}
+
+#errorMessage {
+  color: #ff0000;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
