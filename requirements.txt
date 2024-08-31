@@ -1,0 +1,6 @@
+transformers
+flask
+flask_cors
+pandas
+pytorch
+difflib
