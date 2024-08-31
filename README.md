@@ -13,6 +13,10 @@ Make sure you have the following installed:
 - Python 3.x
 - Flask (`pip install flask`)
 - Flask-CORS (`pip install flask-cors`)
+- transformers (`pip install transformers`)
+- pandas (`pip install pandas`)
+- pytorch (`pip install pytorch`)
+- difflib (`pip install difflib`)
 
 ### Running the Flask Server
 
