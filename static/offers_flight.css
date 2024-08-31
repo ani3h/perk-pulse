@@ -1,0 +1,415 @@
+body{
+    background-color: rgba(232, 230, 225, 0.7647);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .desktop-4 .perk-pulse {
+    margin-right: 37.5px;
+    width: 273px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 50px;
+    color: #333333;
+  }
+  .desktop-4 .group {
+    width: 36px;
+    height: 33.3px;
+  }
+  .desktop-4 .iconamoonprofile-duotone {
+    margin: 20.8px 0;
+    display: flex;
+    width: 54px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .desktop-4 .container-2 {
+    background: linear-gradient(270.09deg, #E8E6E1, #CC5500);
+    position: relative;
+    margin-bottom: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8.5px 49px 8.5px 10.2px;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .desktop-4 .group-4 {
+    margin-bottom: 69px;
+    width: 61px;
+    height: 50px;
+  }
+  .desktop-4 .vector-3 {
+    width: 46.9px;
+    height: 26.6px;
+  }
+  .desktop-4 .ionfilter {
+    margin: 11.7px 35.6px 10.7px 0;
+    display: flex;
+    width: px;
+    height: 5px;
+    box-sizing: border-box;
+  }
+  .desktop-4 .filter {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 40px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .group-9 {
+    border-radius: 15px;
+    background: #D9D9D9;
+    position: relative;
+    margin-top: 22px;
+    display: flex;
+    flex-direction: row;
+    padding: 25px ;
+    width: 250px;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .desktop-4 .container {
+    margin: 0 85px 100px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1305px;
+    box-sizing: border-box;
+  }
+  .desktop-4 .save {
+    margin: 0 0.6px 9px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .rs-2000 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .group-10 {
+    margin-right: 43.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .desktop-4 .using-hdfc-card-1234456778901111 {
+    margin: 23px 29.1px 23px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .vector-4 {
+    width: 20.8px;
+    height: 10.4px;
+  }
+  .desktop-4 .gridiconsdropdown {
+    margin: 41.8px 0 30.7px 0;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .desktop-4 .group-13 {
+    border-radius: 15px;
+    background: #D9D9D9;
+    position: relative;
+    margin: 0 144px 50px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 25.6px 9px 56px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .desktop-4 .save-1 {
+    margin: 0 0.6px 9px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .rs-20001 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .group-101 {
+    margin-right: 43.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .desktop-4 .using-hdfc-card-12344567789011111 {
+    margin: 23px 29.1px 23px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .vector-5 {
+    width: 20.8px;
+    height: 10.4px;
+  }
+  .desktop-4 .gridiconsdropdown-1 {
+    margin: 41.8px 0 30.7px 0;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .desktop-4 .group-14 {
+    border-radius: 15px;
+    background: #D9D9D9;
+    position: relative;
+    margin: 0 144px 50px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 25.6px 9px 56px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .desktop-4 .save-2 {
+    margin: 0 0.6px 9px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .rs-20002 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .group-102 {
+    margin-right: 43.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .desktop-4 .using-hdfc-card-12344567789011112 {
+    margin: 23px 29.1px 23px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .vector-6 {
+    width: 20.8px;
+    height: 10.4px;
+  }
+  .desktop-4 .gridiconsdropdown-2 {
+    margin: 41.8px 0 30.7px 0;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .desktop-4 .group-12 {
+    border-radius: 15px;
+    background: #D9D9D9;
+    position: relative;
+    margin: 0 2px 50px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 25.6px 9px 56px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .desktop-4 .save-3 {
+    margin: 0 0.6px 9px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .rs-20003 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .group-103 {
+    margin-right: 43.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .desktop-4 .using-hdfc-card-12344567789011113 {
+    margin: 23px 29.1px 23px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+  }
+  .desktop-4 .vector-7 {
+    width: 20.8px;
+    height: 10.4px;
+  }
+  .desktop-4 .gridiconsdropdown-3 {
+    margin: 41.8px 0 30.7px 0;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .desktop-4 .group-131 {
+    border-radius: 15px;
+    background: #D9D9D9;
+    position: relative;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 25.6px 9px 56px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .desktop-4 .group-15 {
+    margin: 0 142px 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .desktop-4 .group-1 {
+    width: 50px;
+    height: 50px;
+  }
+  .desktop-4 .group-18 {
+    margin-right: 140px;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+  }
+  .desktop-4 .container-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .desktop-4 .ai-recommendation {
+  padding: 10px 20px;
+  background: #D8925F;
+  border: 0;
+  margin-top: 10px;
+  outline: none;
+  cursor: pointer;
+  font-family: "roboto";
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 30px;
+  width: 250px;
+  transform: translate(300%);
+  } 
+  .desktop-4 .ai-recommendation {
+    position: absolute;
+    left: 290px;
+    top: 340px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    color: #1A2A3A;
+  }
+  .desktop-4 {
+    background: rgba(232, 230, 225, 0.765);
+    display: flex;
+    padding-bottom: 44px;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .desktop-4 .group0{
+    width : 300px;
+    background-color:#d9d9d9;
+    border-radius: 15px;
+    height: 200px;
+    transform: translate(137%, -27%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+  }
+  
+  .desktop-4 .prof-btn{
+  padding: 10px 20px;
+  background: #D8925F;
+  border: 10px;
+  outline: none;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: 700;
+  border-radius: 30px;
+  width: 250px;
+  margin-top: 20px;
+  }
+  
+  .desktop-4 .card-btn{
+  padding: 10px 20px;
+  background: #D8925F;
+  border: 0;
+  margin-top: 10px;
+  outline: none;
+  cursor: pointer;
+  font-family: "roboto";
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 30px;
+  width: 250px;
+  
+  }
+  .desktop-4 .log-out{
+    padding: 10px 60px;
+    background: #D8925f;
+    border: 0;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+    font-family: "roboto";
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 30px;
+    width: 250px;
+  }
+  .desktop-4 .open-Profile{
+  visibility: visible;
+  }

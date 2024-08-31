@@ -1,0 +1,193 @@
+body {
+    background-color: rgba(232, 230, 225, 0.7647);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.desktop-4{
+    width: 1446px;
+    height: 1024px;
+}
+
+.desktop-4 .perk-pulse {
+    margin-top: 10px;
+    margin-right: 37.5px;
+    width: 273px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 50px;
+    color: #333333;
+    
+}
+
+.desktop-4 .group {
+    width: 36px;
+    height: 33.3px;
+}
+
+.desktop-4 .iconamoonprofile-duotone {
+    margin: 20.8px 0;
+    display: flex;
+    width: 54px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.desktop-4 .container-2 {
+    background: linear-gradient(270.09deg, #E8E6E1, #CC5500);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8.5px 49px 8.5px 10.2px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content-container {
+    padding: 10px 85px 100px 50px;
+    box-sizing: border-box;
+    margin-top: -580px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.desktop-4 .group-4 {
+    width: 61px;
+    height: 50px;
+    transform: translate(30%,-1200%);
+}
+
+.list {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 35px;
+    color: #1A2A3A;
+    margin-top: 20px;
+    margin-left: 101px;
+    padding: 0;
+}
+
+.credit-card-list {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 30px;
+    color: #1A2A3A;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 101px;
+}
+
+.credit-card-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-icon {
+    margin-right: 10px;
+}
+
+.delete-icon {
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.add-new-button {
+    margin-top: 20px;
+    margin-left: 101px;
+}
+
+.add-new-button button {
+    border: none;
+    background: none;
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.add-new-button img {
+    display: block;
+}
+
+.group1 {
+    background: #d9d9d9;
+    opacity: 0.99;
+    width: 500px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 30px 30px;
+    color: #333;
+    margin-left: 230px;
+    visibility: hidden;
+}
+
+.cardName {
+    border-radius: 40px;
+    font-family: "roboto";
+    background:#D8925F;
+    margin: 0 0 35.3px 0.1px;
+    width: 402.8px;
+    height: 59.9px;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.group0 {
+    width: 300px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    height: 200px;
+    transform: translate(288%, -9%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+}
+
+.prof-btn, .card-btn, .log-out{
+    padding: 10px 20px;
+    background: #D8925F;
+    border: 0;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 30px;
+    width: 250px;
+}
+
+.log-out {
+    padding: 10px 60px;
+}
+
+.open-Profile, .open-Add {
+    visibility: visible;
+}
+.addCardButton{
+    padding: 10px 20px;
+    background: #D8925F;
+    border: 0;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 150px;
+}
